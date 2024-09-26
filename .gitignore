@@ -1,0 +1,30 @@
+# Ignore Maven target directory
+/target/
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# IDE-specific files
+.vscode/
+*.iml
+
+# Ignore local configuration files
+*.log
+*.tmp
+*.swp
+
+# Ignore Java class files
+*.class
+
+# Ignore IDE specific files
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled JAR files
+*.jar
+
+# Ignore application generated files
+*.war
