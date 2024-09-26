@@ -17,7 +17,7 @@ public class ApiTest {
     }
 
     @Test
-    public void apiCall(){
+    public void apiCall() {
         try {
             given().when().get("/posts/1").then().statusCode(200);
         } catch (Exception e) {
@@ -101,17 +101,16 @@ public class ApiTest {
         response.then().time(lessThan(2000L)); // Assert that the response is under 2 seconds
     }
 
-    //THIS WILL NOT EXECUTE? I AM JUST TESTING THIS PART TO BE USED IN MAIN 
+    // THIS WILL NOT EXECUTE? I AM JUST TESTING THIS PART TO BE USED IN MAIN
 
     @Test
-    public static int sum(int a , int b){
-        int result; 
-        result = a + b; 
+    public static int sum(int a, int b) {
+        int result;
+        result = a + b;
         return result;
     }
-    
+
     public static void main(String[] args) {
-        sum(3,4);
+        sum(3, 4);
     }
 }
-
